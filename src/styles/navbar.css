@@ -1,0 +1,57 @@
+.navbar-component-main{
+    width: 100%;
+    margin-bottom: 4rem;
+    padding: 1.3rem;
+}
+.navbar-component-main ul{
+    list-style: none;
+    width: fit-content;
+}
+.navbar-component-main ul li{
+    margin-left: 1.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.4s;
+}
+.navbar-component-main ul li a{
+    text-decoration: none;
+    transition: all ease-in-out 0.1s;
+}
+
+
+
+
+
+.option-hover-light > a:hover{
+    color: var(--color-txt-secondary-light) !important;
+}
+.option-hover-dark > a:hover{
+    color: var(--color-txt-primary-dark) !important;
+}
+.option-focused{
+    background-color: var(--background-color-blue);
+}
+.option-focused > a{
+    color: white !important;
+}
+
+
+
+
+
+/*CLASES*/
+.flex-direction-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.position-navbar{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}

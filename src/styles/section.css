@@ -1,0 +1,11 @@
+.section-component-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+
+.padding-section{
+    padding: 5rem 2rem;
+}

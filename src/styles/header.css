@@ -1,0 +1,8 @@
+.header-component-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4.3rem 2rem;
+    overflow-x: hidden;
+}
