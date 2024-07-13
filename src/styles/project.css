@@ -1,0 +1,12 @@
+.btn-see{
+    margin-left: 1.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.4s;
+    background-color: var(--background-color-blue);
+    color: var(--color-txt-primary-dark);
+}

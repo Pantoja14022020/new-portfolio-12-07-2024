@@ -1,6 +1,6 @@
-function Section({children,id}){
+function Section({children,id,backgroundColor}){
     return(
-        <section className="section-component-main padding-section" id={id}>
+        <section className="section-component-main padding-section" id={id} style={{backgroundColor:`${backgroundColor}`}}>
             {
                 children
             }

@@ -1,0 +1,130 @@
+/*ESTILOS PARA EL NAVBAR O BARRA DE NAVEGACION. Navbar.jsx*/
+@media screen and (max-width: 1230px) {
+    .header-component-main{/*ESTO ES PARA BAJAR LA IMAGEN Y NO SE PEGUE CON LA BARRA DE NAVEGACION*/
+        padding-top: 6rem;
+    }
+}
+@media screen and (max-width: 810px){
+    .btn-menu-show{/*ESTO ES PARA MOSTRAR EL BOTON DE MENU DE HAMBURGUESAS*/
+        display: block !important;
+        margin: 0 !important;
+        cursor: pointer;
+    }
+    .hide-options{/*ESTO ES PARA OCULTAR LAS OPCIONES DEL NAVBAR, LOS <li>*/
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+/*ESTILOS PARA LOS SECTION, DISMINUIR PADDING DENTRO DE LOS SECTION*/
+@media screen and (max-width: 800px){
+    .padding-section{
+        padding: 5.5rem 2rem;
+    }
+}
+@media screen and (max-width: 800px){
+    .padding-section{
+        padding: 5rem 2rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .padding-section{
+        padding: 3.5rem 2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .padding-section{
+        padding: 3rem 2rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .padding-section{
+        padding: 1rem;
+    }
+}
+
+
+
+
+
+
+
+/*ESTILO PARA LA IMAGEN DE LA SECCION ABOUT*/
+@media screen and (max-width: 630px) {
+    .hide-img{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 630px) {
+    .justify-txt-about{/*Para justificar el texto*/
+        text-align: justify !important;
+    }
+}
+@media screen and (max-width: 370px) {
+    .padding-small-chip{/*Para reducri el padding de los chips de la seccion about*/
+        padding: 0.25rem !important;
+    }
+}
+
+
+
+
+
+
+
+/*ESTILOS PARA LA SECCION SKILLS*/
+@media screen and (max-width: 530px){
+    .direction-column-items-skill{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .direction-row-timelines{
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .wrap-timelines{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+/*ESTILOS PARA LA SECCION PROJECTS*/
+@media screen and (max-width: 620px){
+    .hide-chips-project{/*ESTO ES PARA OCULTAR LOS CHIPS DE TECNOLOGIAS CON SU LOGO*/
+        display: none !important;
+    }
+    .padding-chips-techs{
+        padding: 0.25rem !important;
+    }
+}
+
+
+
+
+
+
+/*ESTILOS PARA LA SECCION CONTAC*/
+@media screen and (max-width: 450px) {
+    .padding-input{
+        padding: 0.5rem !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .width-form{
+        width: 100% !important;
+    }
+    .width-input{
+        width: 200px !important;
+    }
+}

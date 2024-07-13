@@ -1,7 +1,7 @@
-function Header({children,backgroundColor,urlBackground,id}){
+function Header({children,backgroundColor,id}){
     return(
         <>
-            <header id={id} className="header-component-main" style={{backgroundColor:`${backgroundColor}`, backgroundImage:`url("${urlBackground}")`}}>
+            <header id={id} className="header-component-main" style={{backgroundColor:`${backgroundColor}`}}>
                 {
                     children
                 }

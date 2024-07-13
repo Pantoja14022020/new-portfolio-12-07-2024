@@ -1,6 +1,5 @@
 .navbar-component-main{
     width: 100%;
-    margin-bottom: 4rem;
     padding: 1.3rem;
 }
 .navbar-component-main ul{
@@ -32,10 +31,16 @@
 .option-hover-dark > a:hover{
     color: var(--color-txt-primary-dark) !important;
 }
-.option-focused{
+.option-focused-dark{
+    background-color: var(--background-color-semiblack);
+}
+.option-focused-light{
+    background-color: var(--background-color-semiwhite);
+}
+.option-focused-normal{
     background-color: var(--background-color-blue);
 }
-.option-focused > a{
+.option-focused-normal > a{
     color: white !important;
 }
 
